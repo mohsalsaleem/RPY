@@ -1,0 +1,5 @@
+#library(devtools)
+#install_github("pablobarbera/Rfacebook/Rfacebook")
+require("Rfacebook")
+fb_oauth <- fbOAuth(app_id="1533303760283003", app_secret="e5a1e4e08ca81130b0a7e296b285c33c",extended_permissions = TRUE)
+save(fb_oauth, file="FBOuth")
